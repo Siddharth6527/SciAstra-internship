@@ -34,31 +34,31 @@ const University = () => {
       id: 2,
       name: "Harward University",
       image: HarwardIMG,
-      text: "The mission of the University of Cambridge is to contribute to society through education, learning and research at the highest international level.",
+      text: "The mission of the University of Hardward is to contribute to society through education, learning and research at the highest international level.",
     },
     {
       id: 3,
       name: "University Of California",
       image: UniversityOfCaliforniaIMG,
-      text: "The mission of the University of Cambridge is to contribute to society through education, learning and research at the highest international level.",
+      text: "The mission of the University of University of California is to contribute to society through education, learning and research at the highest international level.",
     },
     {
       id: 4,
       name: "Eth Zurich",
       image: EthZurichIMG,
-      text: "The mission of the University of Cambridge is to contribute to society through education, learning and research at the highest international level.",
+      text: "The mission of the Eth Zurich is to contribute to society through education, learning and research at the highest international level.",
     },
     {
       id: 5,
       name: "Max Planck University",
       image: MaxPlanckIMG,
-      text: "The mission of the University of Cambridge is to contribute to society through education, learning and research at the highest international level.",
+      text: "The mission of the University of Max Planck is to contribute to society through education, learning and research at the highest international level.",
     },
     {
       id: 6,
       name: "Edinburg University",
       image: EdinburgIMG,
-      text: "The mission of the University of Cambridge is to contribute to society through education, learning and research at the highest international level.",
+      text: "The mission of the University of Edinburg is to contribute to society through education, learning and research at the highest international level.",
     },
   ];
 
