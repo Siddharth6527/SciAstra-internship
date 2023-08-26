@@ -1,6 +1,5 @@
 import React from "react";
 import { Box, Typography, Grid } from "@mui/material";
-
 import icon1 from "../assets/icon/icon1.jpg";
 import icon2 from "../assets/icon/icon2.jpg";
 import icon3 from "../assets/icon/icon3.jpg";
@@ -26,19 +25,19 @@ const Mentor = () => {
       icon: icon3,
     },
     {
-      id: 1,
+      id: 4,
       name: "Heena",
       from: "Cambridge University",
       icon: icon1,
     },
     {
-      id: 2,
+      id: 5,
       name: "Tushar",
       from: "Max Planck University",
       icon: icon2,
     },
     {
-      id: 3,
+      id: 6,
       name: "Rohan",
       from: "Edinburg University",
       icon: icon3,
@@ -57,7 +56,7 @@ const Mentor = () => {
         Meet Your Mentors
       </Typography>
       <Box>
-        <Grid container spacing={20}>
+        <Grid container spacing={10}>
           {mentors.map((item) => (
             <Grid item xs={3}>
               <Box

@@ -1,50 +1,10 @@
 import React from "react";
 import { Box, Typography, Grid, Button } from "@mui/material";
-
 import icon1 from "../assets/icon/icon1.jpg";
 import icon2 from "../assets/icon/icon2.jpg";
 import icon3 from "../assets/icon/icon3.jpg";
 
 const MentorAndAdvisor = () => {
-  // const metors = [
-  //   {
-  //     id: 1,
-  //     name: "Heena",
-  //     from: "Cambridge University",
-  //     icon: icon1,
-  //   },
-  //   {
-  //     id: 2,
-  //     name: "Tushar",
-  //     from: "Max Planck University",
-  //     icon: icon2,
-  //   },
-  //   {
-  //     id: 3,
-  //     name: "Rohan",
-  //     from: "Edinburg University",
-  //     icon: icon3,
-  //   },
-  //   {
-  //     id: 1,
-  //     name: "Heena",
-  //     from: "Cambridge University",
-  //     icon: icon1,
-  //   },
-  //   {
-  //     id: 2,
-  //     name: "Tushar",
-  //     from: "Max Planck University",
-  //     icon: icon2,
-  //   },
-  //   {
-  //     id: 3,
-  //     name: "Rohan",
-  //     from: "Edinburg University",
-  //     icon: icon3,
-  //   },
-  // ];
-
   return (
     <Box
       sx={{ mb: 10, ml: 10, mr: 10 }}
@@ -53,8 +13,12 @@ const MentorAndAdvisor = () => {
       alignItems="center"
       flexDirection={"column"}
     >
-      <Typography variant="h2" color="initial" sx={{ mb: 10 }}>
-        Meet Your Mentors
+      <Typography
+        variant="h2"
+        color="initial"
+        sx={{ mb: 10, justifyContent: "flex-start" }}
+      >
+        Mentor And Advisor
       </Typography>
       <Box>
         <Grid container spacing={20}>
@@ -105,7 +69,7 @@ const MentorAndAdvisor = () => {
                 Akhil Tripathi
               </Typography>
 
-              <Button sx={{ mt: 2 }} variant="contained">
+              <Button sx={{ mt: 2, background: "#663dff" }} variant="contained">
                 Message him now
               </Button>
             </Box>
@@ -129,7 +93,7 @@ const MentorAndAdvisor = () => {
               <Typography variant="h5" color="initial">
                 Preeti Diwedi
               </Typography>
-              <Button sx={{ mt: 2 }} variant="contained">
+              <Button sx={{ mt: 2, background: "#663dff" }} variant="contained">
                 Message him now
               </Button>
             </Box>

@@ -1,5 +1,4 @@
 import React from "react";
-// import "./App.css";
 import Typography from "@mui/material/Typography";
 import { Box } from "@mui/material";
 import UniversityCard from "../components/UnivesityCard";
@@ -18,6 +17,9 @@ const style = {
   alignItems: "center",
   justifyContent: "center",
   flexDirection: "column",
+  padding: 5,
+  borderRadius: 5,
+  mt: 4,
 };
 
 const University = () => {
@@ -69,10 +71,14 @@ const University = () => {
         alignItems="center"
       >
         <Box sx={style}>
-          <Typography variant="h1" color="initial" sx={{ mb: 10, mt: 5 }}>
+          <Typography
+            variant="h1"
+            color="initial"
+            sx={{ mb: 10, mt: 5, color: "#6741d9" }}
+          >
             Team Page
           </Typography>
-          <Typography variant="h5" color="initial">
+          <Typography variant="h5" color="#343a40">
             Learn from Scientists, research scholars from the Top Institutes in
             the World.
           </Typography>
@@ -87,7 +93,7 @@ const University = () => {
             </Grid>
           ))}
           <Grid item xs={6}>
-            <Typography sx={{ mt: 20 }} variant="h2" color="initial">
+            <Typography sx={{ mt: 20 }} variant="h2" color="#663dff">
               ...... and so on.
             </Typography>
           </Grid>
